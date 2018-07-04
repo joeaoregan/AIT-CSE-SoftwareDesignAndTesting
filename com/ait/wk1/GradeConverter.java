@@ -1,3 +1,4 @@
+package com.ait.wk1;
 // 26/06/2018
 
 import java.util.Scanner;

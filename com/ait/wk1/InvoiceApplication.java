@@ -1,3 +1,4 @@
+package com.ait.wk1;
 
 public class InvoiceApplication {
 	public static void main(String[] args) {

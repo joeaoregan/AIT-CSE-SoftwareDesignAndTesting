@@ -1,3 +1,4 @@
+package com.ait.wk1;
 import java.util.Scanner;
 
 public class InvoiceApplicationV1 {

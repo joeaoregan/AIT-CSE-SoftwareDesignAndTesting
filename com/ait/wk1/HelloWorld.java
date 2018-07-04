@@ -1,3 +1,4 @@
+package com.ait.wk1;
 
 public class HelloWorld {
 
