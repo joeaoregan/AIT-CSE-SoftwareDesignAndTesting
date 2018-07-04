@@ -51,7 +51,7 @@ public class InvoiceApplicationV2 {
 			continueStr = sc.next();
 		}
 
-		System.out.println("\nNumber of invoices:     "+numInvoices);					// Number of invoices added
+		System.out.println("\nNumber of invoices:     "+numInvoices);				// Number of invoices added
 		System.out.println("Average invoice:        "+invoiceTotal/numInvoices);	// Average invoice
 		System.out.println("Average discount:       "+discountTotal/numDiscounts);	// Average discount
 			
