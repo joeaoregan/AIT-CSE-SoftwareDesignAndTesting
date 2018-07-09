@@ -217,10 +217,10 @@ public class SwitchExercises {
 		case 9:
 		case 4:
 		case 6:
-		case 11:;
+		case 11:
 			days = 30;
 			break;
-		case 5:
+			
 		case 2:
 			days = ((year % 4 == 0 && year % 100 != 0) || (year % 4 == 0 && year % 100 == 0 && year % 400 == 0)) ? 29 : 28;
 			break;
