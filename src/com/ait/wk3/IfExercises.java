@@ -1,3 +1,6 @@
+// Joe O'Regan
+// 09/07/2018
+
 package com.ait.wk3;
 
 import java.util.InputMismatchException;
