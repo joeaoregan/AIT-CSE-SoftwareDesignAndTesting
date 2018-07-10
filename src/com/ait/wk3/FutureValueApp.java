@@ -38,6 +38,8 @@ public class FutureValueApp {
 			choice = sc.next();
 			System.out.println();
 		}
+		
+		sc.close();
 	}
 	
 	// a static method that requires three arguments and returns a double
