@@ -3,6 +3,7 @@
 
 package com.ait.wk3;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class WhileLoops {
@@ -12,10 +13,10 @@ public class WhileLoops {
 		//whileAverage();
 		//whileGrades(); // XXX
 		//whileHistogram();
-		whileLargestSmallest();
+		//whileLargestSmallest();
 		//whileSales();
 		//whileSquares();
-		//whileAverageSentinel();
+		whileAverageSentinel();
 	}
 
 	static void thirdOrderPolynomial() {
@@ -212,20 +213,25 @@ public class WhileLoops {
 		Scanner sc = new Scanner(System.in);
 		double input=0.0, total=0.0,average=0.0;
 		int num=0;
-					
-		while (input !=-1) {
-				System.out.print("Please enter a number (-1 to exit) --> ");
-				input = sc.nextDouble();
-				if (input !=-1) {
-					total+=input;
-					num++;
-				}
-		}
 		
-		if (total > 0) {
-			System.out.println("Average is " + total / num);
-		} else {
+		try {
+			while (input !=-1) {
+					System.out.print("Please enter a number (-1 to exit) --> ");
+					input = sc.nextDouble();
+					if (input !=-1) {
+						total+=input;
+						num++;
+					}
+			}
+			
+			if (total > 0) {
+				System.out.println("Average is " + total / num);
+			} 
+			//else {
+			//System.out.println("No numbers entered...");
+			//}	
+		} catch (InputMismatchException e) {
 			System.out.println("No numbers entered...");
-		}		
+		}
 	}
 }
