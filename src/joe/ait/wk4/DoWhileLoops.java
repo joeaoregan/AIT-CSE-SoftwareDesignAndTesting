@@ -1,3 +1,9 @@
+/*
+ * Joe O'Regan
+ * A00258304
+ * 19/07/2018
+ */
+
 package joe.ait.wk4;
 
 import java.util.Scanner;
