@@ -1,3 +1,7 @@
+/*
+ * Joe O'Regan
+ * A00258304
+ */
 package com.ait.wk2;
 
 import java.text.NumberFormat;
@@ -7,7 +11,6 @@ import java.math.*;
 public class Lec3Qs {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		//int userNumber = 14;
 		//String userEntry = "two";
 		

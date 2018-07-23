@@ -1,6 +1,11 @@
-// Joe O'Regan
-// 03/07/2018
-// Wk2 Ex A4
+/* 
+ * Joe O'Regan
+ * A00258304
+ * 03/07/2018
+ * 
+ * Wk2 Ex A4
+ */
+
 package com.ait.wk2;
 
 import java.util.Scanner;
@@ -8,7 +13,6 @@ import java.util.Scanner;
 public class CapitalLetter {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		char letter;
 		Scanner sc = new Scanner(System.in);
 		

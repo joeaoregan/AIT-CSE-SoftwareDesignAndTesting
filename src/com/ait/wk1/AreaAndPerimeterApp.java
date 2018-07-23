@@ -1,3 +1,8 @@
+/*
+ * Joe O'Regan
+ * A00258304
+ */
+
 package com.ait.wk1;
 import java.util.Scanner;
 
@@ -18,6 +23,8 @@ public class AreaAndPerimeterApp {
 		System.out.println("Area:         "+area);
 		perimeter = (length * 2) + (width * 2);
 		System.out.println("Perimeter:    "+perimeter);
+		
+		sc.close();
 	}
 
 }
