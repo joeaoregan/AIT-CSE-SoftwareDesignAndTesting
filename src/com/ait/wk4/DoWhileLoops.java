@@ -4,7 +4,7 @@
  * 19/07/2018
  */
 
-package joe.ait.wk4;
+package com.ait.wk4;
 
 import java.util.Scanner;
 
