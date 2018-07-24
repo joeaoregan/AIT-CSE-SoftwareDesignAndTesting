@@ -16,7 +16,7 @@ public class CounterStaticTest {
 		System.out.println(counter1.getCount());
 		System.out.println(counter2.getCount());
 		System.out.println(counter3.getCount());
-		
+
 		System.out.println(CounterStatic.getCounter());
 	}
 
