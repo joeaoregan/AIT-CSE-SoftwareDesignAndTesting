@@ -3,24 +3,26 @@
  * A00258304
  * 24/07/2018
  * Software Design & Testing
+ * Testing - JUnit
  */
 package com.ait.cat;
 
 public class StudentGrade {
-	
+	char grade = 'F';
+
 	public char convertToGrade(int mark) {
 		if (mark >= 85 && mark <= 100) {
-			return 'A';			
+			grade = 'A';
 		} else if (mark >= 70 && mark < 85) {
-			return 'B';
+			grade = 'B';
 		} else if (mark >= 65 && mark < 70) {
-			return 'C';
+			grade = 'C';
 		} else if (mark >= 55 && mark < 65) {
-			return 'D';
+			grade = 'D';
 		} else if (mark >= 40 && mark < 55) {
-			return 'E';
+			grade = 'E';
 		}
-				
-		return 'F';
+
+		return grade;
 	}
 }

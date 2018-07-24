@@ -3,6 +3,7 @@
  * A00258304
  * 24/07/2018
  * Software Design & Testing
+ * Testing - JUnit
  */
 package com.ait.test;
 
@@ -19,11 +20,35 @@ class StudentGradeTest {
 		StudentGrade studentGrade = new StudentGrade();
 		assertEquals('A', studentGrade.convertToGrade(86));
 	}
-	
+
 	@Test
 	void testGradeB() {
 		StudentGrade studentGrade = new StudentGrade();
 		assertEquals('B', studentGrade.convertToGrade(74));
+	}
+
+	@Test
+	void testGradeC() {
+		StudentGrade studentGrade = new StudentGrade();
+		assertEquals('C', studentGrade.convertToGrade(66));
+	}
+
+	@Test
+	void testGradeD() {
+		StudentGrade studentGrade = new StudentGrade();
+		assertEquals('D', studentGrade.convertToGrade(57));
+	}
+
+	@Test
+	void testGradeE() {
+		StudentGrade studentGrade = new StudentGrade();
+		assertEquals('E', studentGrade.convertToGrade(45));
+	}
+
+	@Test
+	void testGradeF() {
+		StudentGrade studentGrade = new StudentGrade();
+		assertEquals('F', studentGrade.convertToGrade(38));
 	}
 
 }
