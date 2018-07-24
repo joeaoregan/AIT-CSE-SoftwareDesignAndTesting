@@ -2,8 +2,8 @@
  * Joe O'Regan
  * A00258304
  * 24/07/2018
- * Software Development
- * Lec8 S44
+ * Software Design & Testing
+ * Lec8 S44 - JUnit
  */
 
 package com.ait.test;
@@ -23,25 +23,25 @@ class CatTest {
 		assertEquals(4, cat.getAge());
 		assertEquals("Black", cat.getColour());
 	}
-	
+
 	@Test
 	void testCatNameChanged() {
 		Cat cat = new Cat("Tom", 4, "Black");
 		cat.setName("Jerry");
-		assertEquals("Jerry",cat.getName());
+		assertEquals("Jerry", cat.getName());
 	}
-	
+
 	@Test
 	void testCatAgeChanged() {
 		Cat cat = new Cat("Tom", 4, "Black");
 		cat.setAge(5);
-		assertEquals(5,cat.getAge());
+		assertEquals(5, cat.getAge());
 	}
-	
+
 	@Test
 	void testCatColourChanged() {
-		Cat cat = new Cat("Tom",4,"Black");
+		Cat cat = new Cat("Tom", 4, "Black");
 		cat.setColour("White");
-		assertEquals("White",cat.getColour());
+		assertEquals("White", cat.getColour());
 	}
 }
