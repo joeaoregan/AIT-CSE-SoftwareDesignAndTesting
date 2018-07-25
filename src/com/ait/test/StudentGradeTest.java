@@ -24,31 +24,31 @@ class StudentGradeTest {
 	@Test
 	void testGradeB() {
 		StudentGrade studentGrade = new StudentGrade();
-		assertEquals('B', studentGrade.convertToGrade(74));
+		assertEquals('B', studentGrade.convertToGrade(75));
 	}
 
 	@Test
 	void testGradeC() {
 		StudentGrade studentGrade = new StudentGrade();
-		assertEquals('C', studentGrade.convertToGrade(66));
+		assertEquals('C', studentGrade.convertToGrade(60));
 	}
 
 	@Test
 	void testGradeD() {
 		StudentGrade studentGrade = new StudentGrade();
-		assertEquals('D', studentGrade.convertToGrade(57));
+		assertEquals('D', studentGrade.convertToGrade(50));
 	}
 
 	@Test
 	void testGradeE() {
 		StudentGrade studentGrade = new StudentGrade();
-		assertEquals('E', studentGrade.convertToGrade(45));
+		assertEquals('E', studentGrade.convertToGrade(30));
 	}
 
 	@Test
 	void testGradeF() {
 		StudentGrade studentGrade = new StudentGrade();
-		assertEquals('F', studentGrade.convertToGrade(38));
+		assertEquals('F', studentGrade.convertToGrade(20));
 	}
 
 }
