@@ -2,8 +2,9 @@
  * Joe O'Regan
  * A00258304
  * 24/07/2018
+ * 
  * Software Design & Testing
- * Testing - JUnit
+ * Testing - JUnit Lab 1
  */
 package com.ait.test;
 
