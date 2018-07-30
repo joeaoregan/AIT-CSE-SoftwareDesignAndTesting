@@ -2,7 +2,7 @@
  * Joe O'Regan
  * A00258304
  * 24/07/2018
- * UML
+ * Java: UML Exercises - 1 Phone
  */
 package com.ait.ex5B;
 
