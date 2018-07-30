@@ -51,7 +51,9 @@ public class Customer {
 		return count;
 	}
 
+	@Override
 	public String toString() {
-		return "Customer [accountNo=" + accountNo + ", name=" + name + ", balance=" + balance + "]";
+		return ("Customer [accountNo=" + accountNo + 
+				", name=" + name + ", balance=" + balance + "]");
 	}
 }

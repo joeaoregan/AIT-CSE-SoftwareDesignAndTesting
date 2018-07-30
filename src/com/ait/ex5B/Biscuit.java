@@ -44,11 +44,12 @@ public class Biscuit {
 	public void setMaker(String maker) {
 		this.maker = maker;
 	}
+	@Override
 	public String toString() {
-		return "Biscuit [Maker="+maker+
+		return ("Biscuit [Maker="+maker+
 				", brand="+brand+
 				", weight="+weight
-				+"]";
+				+"]");
 	}
 	public boolean isOutOfDate() {
 		return true;

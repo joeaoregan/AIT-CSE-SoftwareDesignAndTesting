@@ -23,4 +23,9 @@ public class Rock2 {
 	public static int getNumRocks() {
 		return numRocks;
 	}
+	
+	@Override
+	public String toString() {
+		return ("Code is " + rockCode);
+	}
 }
