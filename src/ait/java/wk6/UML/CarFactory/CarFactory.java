@@ -14,20 +14,13 @@ public class CarFactory {
 	private static CarDB carDB = new CarDB();
 
 	public static void main(String[] args) {
-
-		Car car1 = new Car("12MO1234", "VW", "Passat", "Silver");
-		Car car2 = new Car("131WH3485");
-		carDB.addCar(car1);
-		carDB.addCar(car2);
-
-		System.out.println("Welcome to the Car Application");
-		getCarRegistration();
-	}
-
-	static void getCarRegistration() {
 		Car car;
 		String registration = "", colour;
-		char input;
+		
+		carDB.addCar(new Car("12MO1234", "VW", "Passat", "Silver"));
+		carDB.addCar(new Car("131WH3485", "Ford", "Focus", "Red"));
+
+		System.out.println("Welcome to the Car Application");
 
 		while (true) {
 			System.out.println("------------------------------------------------------");
@@ -38,25 +31,20 @@ public class CarFactory {
 			System.out.println("Enter 'k' to update no. of kilometers");
 			System.out.println("Enter 'q' to quit");
 
-			input = sc.next().charAt(0);
+			char input = sc.next().charAt(0);
 			if (input != 'q') {
-				System.out.println("Enter car registration");
-				registration = sc.next();
+				registration = getCarRegistration();
 			}
 
-			switch (input) {
-			case 'a':
+			if (input == 'a') {
 				System.out.println("Enter car make");
 				String make = sc.next();
 				System.out.println("Enter car model");
 				String model = sc.next();
 				System.out.println("Enter car colour");
 				colour = sc.next();
-
 				carDB.addCar(new Car(registration, make, model, colour));
-				System.out.println("Car has been added");
-				break;
-			case 'f':
+			} else if (input == 'f') {
 				car = carDB.findCarByReg(registration);
 
 				if (car != null) {
@@ -64,12 +52,12 @@ public class CarFactory {
 				} else {
 					System.out.println("Car not found");
 				}
-				break;
-			case 'c':
+			} else if (input == 'c') {
 				car = carDB.findCarByReg(registration);
 				if (car != null) {
-					String oldColour = car.getColour();
+					String oldColour = car.getColour();					
 					System.out.println("The car is currently " + oldColour);
+					
 					System.out.println("Enter new colour");
 					colour = sc.next();
 					car.setColour(colour);
@@ -78,26 +66,27 @@ public class CarFactory {
 				} else {
 					System.out.println("Car not found");
 				}
-				break;
-			case 'k':
+			} else if (input == 'k') {
 				car = carDB.findCarByReg(registration);
-				int oldKm = car.getKilometers();
+				
 				System.out.println("Enter no. of kilometers");
 				int km = sc.nextInt();
-				if (km >= oldKm) {
+				
+				if (km >= car.getKilometers()) {
 					car.setKilometers(km);
 					System.out.println("Kilometers is now " + car.getKilometers());
 				} else {
 					System.out.println("Sorry you put back the odometer");
 				}
-				break;
-			case 'q':
-				System.out.println(Car.getNumberOfCars() + " cars have been created");
-				System.out.println("Good bye!!");
+			} else if (input == 'q') {
+				System.out.println(Car.getNumberOfCars() + " cars have been created\nGood bye!!");
 				break;
 			}
-
 		}
+	}
 
+	static String getCarRegistration() {
+		System.out.println("Enter car registration");
+		return sc.next();
 	}
 }

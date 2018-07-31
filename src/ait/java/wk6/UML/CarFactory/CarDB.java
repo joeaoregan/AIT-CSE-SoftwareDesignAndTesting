@@ -25,6 +25,7 @@ public class CarDB {
 
 	public void addCar(Car car) {
 		carList.add(car);
+		System.out.println("Car has been added");
 	}
 
 	public Car findCarByReg(String registration) {
