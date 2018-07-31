@@ -14,25 +14,26 @@ import org.junit.jupiter.api.Test;
 class CatTest {
 	// Setup method runs before each test
 	Cat cat; // Needs to be visible to all methods
+
 	@BeforeEach
 	public void setup() {
-		cat = new Cat("James",3,"Black");
+		cat = new Cat("James", 3, "Black");
 		System.out.println("In before");
 	}
-	
+
 	@Test
 	void testCatConstructor() {
-		//Cat cat = new Cat("James",3,"Black");
-		assertEquals("James",cat.getName());
-		assertEquals(3,cat.getAge());
-		assertEquals("Black",cat.getColour());
+		// Cat cat = new Cat("James",3,"Black");
+		assertEquals("James", cat.getName());
+		assertEquals(3, cat.getAge());
+		assertEquals("Black", cat.getColour());
 	}
-	
+
 	@Test
 	void testChangeCatColour() {
-		//Cat cat = new Cat("James",3,"Black");
+		// Cat cat = new Cat("James",3,"Black");
 		cat.setColour("Green");
-		assertEquals("Green",cat.getColour());
+		assertEquals("Green", cat.getColour());
 	}
 
 }

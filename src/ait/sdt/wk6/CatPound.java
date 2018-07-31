@@ -12,9 +12,9 @@ public class CatPound {
 	private ArrayList<Cat> catCollection;
 
 	public CatPound() {
-		catCollection=new ArrayList<Cat>();
+		catCollection = new ArrayList<Cat>();
 	}
-	
+
 	public void addCat(Cat cat) {
 		catCollection.add(cat);
 	}
@@ -28,7 +28,7 @@ public class CatPound {
 	}
 
 	public Boolean searchCatName(String name) {
-		for (Cat cat: catCollection) {
+		for (Cat cat : catCollection) {
 			if (cat.getName().equals(name)) {
 				return true;
 			}
@@ -37,7 +37,7 @@ public class CatPound {
 	}
 
 	public Boolean findCat(Cat cat) {
-		for (Cat catSearched: catCollection) {
+		for (Cat catSearched : catCollection) {
 			if (catSearched == cat) {
 				return true;
 			}
