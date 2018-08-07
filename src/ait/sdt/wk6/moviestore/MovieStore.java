@@ -4,7 +4,7 @@
  * 01/08/2018
  * Software Design and Testing: MovieStore
  */
-package com.ait.moviestore;
+package ait.sdt.wk6.moviestore;
 
 import java.util.ArrayList;
 

@@ -3,7 +3,7 @@
  * A00258304
  * 01/08/2018
  */
-package com.ait.employees;
+package ait.sdt.wk6.employees;
 
 import java.util.ArrayList;
 

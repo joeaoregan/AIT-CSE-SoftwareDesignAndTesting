@@ -12,6 +12,9 @@ import static org.junit.Assert.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import ait.sdt.wk6.employees.Employee;
+import ait.sdt.wk6.employees.EmployeeSys;
+
 class EmployeeTest {
 	Employee employee;
 	EmployeeSys employeeSys;
