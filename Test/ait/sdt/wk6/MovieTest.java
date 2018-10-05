@@ -27,6 +27,8 @@ class MovieTest {
 	@Test
 	void testMovieConstructor() {
 		Movie movie2 = new Movie("Avengers", "Action");
+		assertEquals("Avengers", movie2.getTitle());
+		assertEquals("Action", movie2.getGenre());
 	}
 
 	@Test
