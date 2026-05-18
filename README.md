@@ -16,3 +16,5 @@
 **Module**: Software Design and Testing
 
 Weekly labs and assignments for Software Design and Testing module
+
+[Vending Machine](https://joeaoregan.github.io/AIT-CSE-SoftwareDesignAndTesting/unit-testing/vending-machine/)
