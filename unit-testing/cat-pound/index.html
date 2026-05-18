@@ -100,6 +100,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#unit-testing-cat-pound-exercise" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -680,6 +685,24 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cat Pound
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -696,6 +719,95 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-testing-cat-pound-exercise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unit Testing Cat Pound Exercise
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unit Testing Cat Pound Exercise">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-story-1-check-number-of-cats-in-pound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Story 1 – check number of cats in pound
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-story-2-adding-a-cat-to-the-pound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Story 2 – adding a cat to the pound
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-story-3-removing-a-cat-from-the-pound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Story 3 – removing a cat from the pound
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-story-4-search-for-a-cat-by-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Story 4 – search for a cat by name
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-story-5-search-for-a-cats-greater-than-a-certain-age" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Story 5 – search for a cats greater than a certain age
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -930,6 +1042,86 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-testing-cat-pound-exercise" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unit Testing Cat Pound Exercise
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Unit Testing Cat Pound Exercise">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#user-story-1-check-number-of-cats-in-pound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Story 1 – check number of cats in pound
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-story-2-adding-a-cat-to-the-pound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Story 2 – adding a cat to the pound
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-story-3-removing-a-cat-from-the-pound" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Story 3 – removing a cat from the pound
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-story-4-search-for-a-cat-by-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Story 4 – search for a cat by name
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#user-story-5-search-for-a-cats-greater-than-a-certain-age" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        User Story 5 – search for a cats greater than a certain age
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -956,7 +1148,51 @@
 
   <h1>Cat Pound</h1>
 
-
+<h2 id="unit-testing-cat-pound-exercise">Unit Testing Cat Pound Exercise</h2>
+<div class="highlight"><pre><span></span><code>+-----------------------------------------+
+|               + CatPound                |
++-----------------------------------------+
+|                                         |
++-----------------------------------------+  0..1    0..* +-----------------+
+| +addCat(aCat : Cat)                     |--------------&gt;|      + Cat      |
+| +getNumberOfCats() : Integer            |               +-----------------+
+| +removeCat(aCat : Cat)                  |               | -name : String  |
+| +searchCatName(name : String) : Boolean |               | -age : Integer  |
+| +findCat(aCat : Cat) : Boolean          |               | -color : String |
+| +getNumberOfOlderThan() : Integer       |               +-----------------+
++-----------------------------------------+               |                 |
+                                                          +-----------------+
+                                                           _________________
+                                                          | getter &amp; setter |
+                                                          | methods for Cat |
+                                                          |_________________|
+</code></pre></div>
+<p>A CatPound contains a collection of cats. </p>
+<p>We assume a cat is identified by its name (assume unique).</p>
+<p>The CatPound will implement the following User Stories</p>
+<ol>
+<li>As a cat pound assistant, I want to be able to check how many cats are in the CatPound so that I will know if we have reached our capacity</li>
+<li>As a cat pound assistant I want to be able to add a cat to the CatPound so that all cats accepted by the pound are accounted for</li>
+<li>As a cat pound assistant I want to be able to remove a cat from the CatPound so that a cat is removed when it is no longer resident in the CatPound.</li>
+<li>As a cat pound assistant I want to be able to search by cat name so that I can locate a cat with a particular name.</li>
+<li>As a cat pound administrator I want to know how many cats over a certain age are present in the pound so that old cats can be put down.</li>
+</ol>
+<p>First write a unit test class CatTest for the Cat that tests the constructor and the getters and setters.</p>
+<p>Now we will test the Cat Pound functionality – <strong>try and write the tests before the code NB</strong></p>
+<h3 id="user-story-1-check-number-of-cats-in-pound">User Story 1 – check number of cats in pound</h3>
+<p>Test 1-1 – Before any cats are added to the pound, there should be no cats in the pound
+Note:Other tests for this user story will be completed as part of Story 2 and 3 after cats have been added or removed. Test 2-1 is duplication of this test also but we will leave it here for completeness</p>
+<h3 id="user-story-2-adding-a-cat-to-the-pound">User Story 2 – adding a cat to the pound</h3>
+<p>Test 2-1 An empty cat pound(no cats added) should return zero when the number of cats is retrieved from the cat pound.
+Test 2-2 – Adding a cat to an empty pound should return one when the number of cats is retrieved from the pound
+Test 2-3 – Adding two cats to an emptypound should return two when the number of cats is retrieved from the pound.
+Test 2-4 – If we add a cat to the pound, we should be able to ask if it’s there. Conversely, we should receive a negative response when we ask about a cat we haven’t added. Check for the cat using its object reference (contains). This is the findCat method from the diagram.</p>
+<h3 id="user-story-3-removing-a-cat-from-the-pound">User Story 3 – removing a cat from the pound</h3>
+<p>Test 3-1  If a cat is added to the pound and then removed, test that it can no longer be found –findCat method. Note: the remove method removes an object from the arrayList.</p>
+<h3 id="user-story-4-search-for-a-cat-by-name">User Story 4 – search for a cat by name</h3>
+<p>Test 4-1 Search by name. Check if a cat with a specific name is in the pound. Check that true is returned if the cat has been added to the pound, otherwise false.</p>
+<h3 id="user-story-5-search-for-a-cats-greater-than-a-certain-age">User Story 5 – search for a cats greater than a certain age</h3>
+<p>Test 5-1 Search by age. Check correct value is returned.</p>
 
 
 
