@@ -100,6 +100,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#unit-testing-exercise-2" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -652,6 +657,24 @@
       
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Discount Calculator
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -668,6 +691,34 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-testing-exercise-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unit Testing Exercise #2
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -930,6 +981,25 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#unit-testing-exercise-2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Unit Testing Exercise #2
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -956,7 +1026,61 @@
 
   <h1>Discount Calculator</h1>
 
-
+<h2 id="unit-testing-exercise-2">Unit Testing Exercise #2</h2>
+<p>Write a DiscountCalculator class that calculates the discount based on the type of customer G (Gold), S (Sliver), B (Bronze)  and subtotal as follows:<br />
+Note your class should have one method that takes a char (customer type) and a double(subtotal) as arguments and returns a double (total).</p>
+<p>Write a test class so that your DiscountCalculator class has 100% code coverage.</p>
+<table>
+<thead>
+<tr>
+<th>Customer Type</th>
+<th>Subtotal</th>
+<th>Discount Applied</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>G</td>
+<td>&gt;=250</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>G</td>
+<td>&gt;=100 and &lt;250</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>G</td>
+<td>&lt; 100</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>S</td>
+<td>&gt;=200</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>S</td>
+<td>&gt;=100 and &lt; 200</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>S</td>
+<td>&lt;100</td>
+<td>0</td>
+</tr>
+<tr>
+<td>B</td>
+<td>&gt;=300</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>B</td>
+<td>&lt;300</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table>
 
 
 
