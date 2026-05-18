@@ -15,6 +15,13 @@
 **Course**: Certificate in Software Engineering  
 **Module**: Software Design and Testing
 
-Weekly labs and assignments for Software Design and Testing module
+### Weekly labs and assignments for Software Design and Testing module
 
-[Vending Machine](https://joeaoregan.github.io/AIT-CSE-SoftwareDesignAndTesting/unit-testing/vending-machine/)
+#### Vending Machine
+
+[Instructions](https://joeaoregan.github.io/AIT-CSE-SoftwareDesignAndTesting/unit-testing/vending-machine/)
+
+- [VendingMachine.java](VendingMachine/com/ait/vending/VendingMachine.java)
+- [VendingMachineTest.java](VendingMachine/com/ait/test/VendingMachineTest.java)
+- [Product.java](VendingMachine/com/ait/vending/Product.java)
+- [ProductTest.java](VendingMachine/com/ait/test/ProductTest.java)

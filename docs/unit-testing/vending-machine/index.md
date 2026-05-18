@@ -1,5 +1,10 @@
 ## Unit Testing Vending Machine
 
+[VendingMachine.java](https://github.com/joeaoregan/AIT-CSE-SoftwareDesignAndTesting/blob/master/VendingMachine/com/ait/vending/VendingMachine.java)  
+[VendingMachineTest.java](https://github.com/joeaoregan/AIT-CSE-SoftwareDesignAndTesting/blob/master/VendingMachine/com/ait/test/VendingMachineTest.java)  
+[Product.java](https://github.com/joeaoregan/AIT-CSE-SoftwareDesignAndTesting/blob/master/VendingMachine/com/ait/vending/Product.java)  
+[ProductTest.java](https://github.com/joeaoregan/AIT-CSE-SoftwareDesignAndTesting/blob/master/VendingMachine/com/ait/test/ProductTest.java)
+
 ### Instructions
 
 **Time Allowed:** 2.5 hrs
