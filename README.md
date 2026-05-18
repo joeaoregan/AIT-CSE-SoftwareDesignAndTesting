@@ -25,4 +25,12 @@
 - [VendingMachineTest.java](VendingMachine/com/ait/test/VendingMachineTest.java)
 - [Product.java](VendingMachine/com/ait/vending/Product.java)
 - [ProductTest.java](VendingMachine/com/ait/test/ProductTest.java)
-- [Test Coverage]()
+- [Test Coverage](https://joeaoregan.github.io/AIT-CSE-SoftwareDesignAndTesting/unit-testing/vending-machine/test-coverage/#test-coverage)
+
+![Vending Machine Test Coverage](docs/unit-testing/vending-machine/coverage1.png)
+
+    Vending Machine Test Coverage
+
+![Product Test Coverage](docs/unit-testing/vending-machine/coverage2.png)
+
+    Product Test Coverage
