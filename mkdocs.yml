@@ -59,6 +59,7 @@ nav:
       - GitHub: https://github.com/joeaoregan
   - Unit Testing:
     - unit-testing/vending-machine/index.md
+    - unit-testing/vending-machine/test-coverage.md
 markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
