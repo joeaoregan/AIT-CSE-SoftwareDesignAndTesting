@@ -25,3 +25,4 @@
 - [VendingMachineTest.java](VendingMachine/com/ait/test/VendingMachineTest.java)
 - [Product.java](VendingMachine/com/ait/vending/Product.java)
 - [ProductTest.java](VendingMachine/com/ait/test/ProductTest.java)
+- [Test Coverage]()
