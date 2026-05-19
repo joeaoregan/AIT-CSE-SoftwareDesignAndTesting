@@ -1,4 +1,6 @@
-## JUnit Output
+## Vending Machine Test Coverage
+
+### JUnit Output
 
 ![ProductTest](junit1.png)
 
@@ -8,7 +10,7 @@
 
     Figure 2. VendingMachineTest
 
-## Test Coverage
+### Test Coverage
 
 ![VendingMachineTest Coverage](coverage1.png)
 

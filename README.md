@@ -17,6 +17,35 @@
 
 ### Weekly labs and assignments for Software Design and Testing module
 
+#### Student Grade
+
+[Instructions](https://joeaoregan.github.io/AIT-CSE-SoftwareDesignAndTesting/unit-testing/student-grade/)
+
+- [StudentGrade.java](https://github.com/joeaoregan/AIT-CSE-SoftwareDesignAndTesting/blob/master/src/ait/sdt/wk5/StudentGrade.java)
+- [StudentGradeTest.java](Test/ait/sdt/wk5/StudentGradeTest.java)
+
+#### Discount Calculator
+
+[Instructions](https://joeaoregan.github.io/AIT-CSE-SoftwareDesignAndTesting/unit-testing/discount-calculator/)
+
+- [DiscountCalculator.java](src/ait/sdt/wk5/DiscountCalculator.java)
+- [DiscountCalculatorTest.java](Test/ait/sdt/wk5/DiscountCalculatorTest.java)
+
+#### Cat Pound
+
+[Instructions](https://joeaoregan.github.io/AIT-CSE-SoftwareDesignAndTesting/unit-testing/cat-pound/)
+
+- [Cat.java](src/ait/sdt/wk5/Cat.java)
+- [CatTest.java](Test/ait/sdt/wk5/CatTest.java)
+
+#### Employee Recording System
+
+[Instructions](https://joeaoregan.github.io/AIT-CSE-SoftwareDesignAndTesting/unit-testing/employee-recording-system/)
+
+- [EmployeeSys.java](src/ait/sdt/wk6/EmployeeSys.java)
+- [Employee.java](src/ait/sdt/wk6/Employee.java)
+- [EmployeeTest.java](Test/ait/sdt/wk6/EmployeeTest.java)
+
 #### Vending Machine
 
 [Instructions](https://joeaoregan.github.io/AIT-CSE-SoftwareDesignAndTesting/unit-testing/vending-machine/)

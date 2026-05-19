@@ -1,4 +1,6 @@
-## Unit Testing Vending Machine
+# Vending Machine
+
+## Unit Testing
 
 ### Files
 

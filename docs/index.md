@@ -3,6 +3,30 @@
 
 Weekly labs and assignments for Software Design and Testing module
 
+### Student Grade
+
+[Student Grade Instructions](unit-testing/student-grade/index.md)
+
+### Discount Calculator
+
+[Discount Calculator Instructions](unit-testing/discount-calculator/index.md)
+
+### Cat Pound
+
+[Cat Pound Instructions](unit-testing/cat-pound/index.md)
+
+### Employee Recording System
+
+[Employee Recording System Instructions](unit-testing/employee-recording-system/index.md)
+
+### Movie Catalog
+
+[Movie Catalog Instructions](unit-testing/movie-store/index.md)
+
+### Boarding Kennel
+
+[Boarding Kennel Instructions](unit-testing/boarding-kennel/index.md)
+
 ### Vending Machine
 
 [Vending Machine Instructions](unit-testing/vending-machine/index.md)

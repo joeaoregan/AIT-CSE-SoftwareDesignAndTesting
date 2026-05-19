@@ -58,8 +58,15 @@ nav:
       - Linkedin: https://www.linkedin.com/in/joeaoregan/
       - GitHub: https://github.com/joeaoregan
   - Unit Testing:
-    - unit-testing/vending-machine/index.md
-    - unit-testing/vending-machine/test-coverage.md
+    - Student Grade: unit-testing/student-grade/index.md
+    - Discount Calculator: unit-testing/discount-calculator/index.md
+    - Cat Pound: unit-testing/cat-pound/index.md
+    - Employee Recording System: unit-testing/employee-recording-system/index.md
+    - Movie Store: unit-testing/movie-store/index.md
+    - Boarding Kennel: unit-testing/boarding-kennel/index.md
+    - Vending Machine: 
+      - Vending Machine: unit-testing/vending-machine/index.md
+      - Test Coverage: unit-testing/vending-machine/test-coverage.md
 markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
