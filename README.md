@@ -46,6 +46,22 @@
 - [Employee.java](src/ait/sdt/wk6/Employee.java)
 - [EmployeeTest.java](Test/ait/sdt/wk6/EmployeeTest.java)
 
+#### Movie Catalogue
+
+[Instructions](https://joeaoregan.github.io/AIT-CSE-SoftwareDesignAndTesting/unit-testing/movie-store/)
+
+- [MovieStore.java](src/ait/sdt/wk6/MovieStore.java)  
+- [Movie.java](src/ait/sdt/wk6/Movie.java)  
+- [MovieTest.java](Test/ait/sdt/wk6/MovieTest.java)
+
+#### Boarding Kennel
+
+[Instructions](https://joeaoregan.github.io/AIT-CSE-SoftwareDesignAndTesting/unit-testing/boarding-kennel/)
+
+- [BoardingKennel.java](src/ait/sdt/wk7/BoardingKennel.java)  
+- [Pet.java](src/ait/sdt/wk7/Pet.java)  
+- [PetTest.java](Test/ait/sdt/wk7/PetTest.java)
+
 #### Vending Machine
 
 [Instructions](https://joeaoregan.github.io/AIT-CSE-SoftwareDesignAndTesting/unit-testing/vending-machine/)
