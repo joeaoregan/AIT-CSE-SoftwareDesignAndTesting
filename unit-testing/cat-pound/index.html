@@ -1151,18 +1151,16 @@
 <h2 id="unit-testing-cat-pound-exercise">Unit Testing Cat Pound Exercise</h2>
 <div class="highlight"><pre><span></span><code>+-----------------------------------------+
 |               + CatPound                |
-+-----------------------------------------+
-|                                         |
++-----------------------------------------+               +-----------------+
+|                                         |               |      + Cat      |
 +-----------------------------------------+  0..1    0..* +-----------------+
-| +addCat(aCat : Cat)                     |--------------&gt;|      + Cat      |
-| +getNumberOfCats() : Integer            |               +-----------------+
-| +removeCat(aCat : Cat)                  |               | -name : String  |
-| +searchCatName(name : String) : Boolean |               | -age : Integer  |
-| +findCat(aCat : Cat) : Boolean          |               | -color : String |
+| +addCat(aCat : Cat)                     |--------------&gt;| -name : String  |
+| +getNumberOfCats() : Integer            |               | -age : Integer  |
+| +removeCat(aCat : Cat)                  |               | -color : String |
+| +searchCatName(name : String) : Boolean |               +-----------------+
+| +findCat(aCat : Cat) : Boolean          |               |                 |
 | +getNumberOfOlderThan() : Integer       |               +-----------------+
-+-----------------------------------------+               |                 |
-                                                          +-----------------+
-                                                           _________________
++-----------------------------------------+                _________________
                                                           | getter &amp; setter |
                                                           | methods for Cat |
                                                           |_________________|
@@ -1193,6 +1191,11 @@ Test 2-4 – If we add a cat to the pound, we should be able to ask if it’s th
 <p>Test 4-1 Search by name. Check if a cat with a specific name is in the pound. Check that true is returned if the cat has been added to the pound, otherwise false.</p>
 <h3 id="user-story-5-search-for-a-cats-greater-than-a-certain-age">User Story 5 – search for a cats greater than a certain age</h3>
 <p>Test 5-1 Search by age. Check correct value is returned.</p>
+<hr />
+<ul>
+<li><a href="https://github.com/joeaoregan/AIT-CSE-SoftwareDesignAndTesting/blob/master/src/ait/sdt/wk5/Cat.java">Cat.java</a>  </li>
+<li><a href="https://github.com/joeaoregan/AIT-CSE-SoftwareDesignAndTesting/blob/master/Test/ait/sdt/wk5/CatTest.java">CatTest.java</a></li>
+</ul>
 
 
 
